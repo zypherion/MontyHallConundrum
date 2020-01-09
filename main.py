@@ -1,7 +1,7 @@
 """
 This code allows for rapid simulation of the "Monty Hall" problem. Should you switch, or should you stay???
 """
-
+import threaded
 from time import sleep
 from random import randint
 wins = 0
@@ -110,7 +110,7 @@ while True:
         print("I lost...")
         losses += 1
     if wins > 0 and losses > 0:
-        winRate = int(100*(wins/cycles))
+        winRate = 100*(wins/cycles)
         print("Wins:",wins, "losses:",losses)
         print("I've won %d percent of %d games...\n\n" % (winRate, cycles))
 
