@@ -23,7 +23,7 @@ def results():
             print("I've won %d percent of %d games...\n\n" % (winRate, cycles))
 
         #Wait, then clear the screen:
-        sleep(5)
+        sleep(1)
         print(chr(27)+'[2j')
         print('\033c')
         print('\x1bc')
