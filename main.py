@@ -5,22 +5,33 @@ from time import sleep
 from random import randint
 import threading
 
-#import results
-#import play
+#Setup variables:
 wins = 0
 losses = 0
 cycles = 0
+fColor = '\033[37m'
+dColor = '\033[m'
+#Prompt user to decide if they want us to swap doors or stay with initial guess:
 switch = input("Should we switch our guess (y/n)?: ")
+
+#clear screen:
+print(chr(27)+'[2j')
+print('\033c')
+print('\x1bc')
 
 
 def results():
-    global cycles, wins, losses
+    global cycles, wins, losses, fColor, dColor
     while True:
         #Show Results:
         if wins > 0 and losses > 0:
+            if wins > losses:
+                fColor = '\033[32m'
+            else:
+                fColor = '\033[31m'
             winRate = 100*(wins/cycles)
             print("Wins:",wins, "losses:",losses)
-            print("I've won %d percent of %d games...\n\n" % (winRate, cycles))
+            print("I've won %s %d %s percent of %d games...\n\n" % (fColor, winRate, dColor, cycles))
 
         #Wait, then clear the screen:
         sleep(1)
