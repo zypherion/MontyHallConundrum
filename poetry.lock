@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = "Decorators for running functions in Thread/ThreadPool/IOLoop"
+name = "threaded"
+optional = false
+python-versions = ">=3.6.0"
+version = "4.0.8"
+
+[metadata]
+content-hash = "845637b7554b76a93cb7d2b8fec9c7cbed3b651c14cc0b8b786c417da872423e"
+python-versions = "^3.7"
+
+[metadata.hashes]
+threaded = ["176e6ccb1f319105ff9bf562d51f42bef3446e112836541b7ad71fbdb8d169da", "317492f527098be4d9e9bde0ced05c6cf41114c5dc9b0d42ace32468bb99710a", "3eab570f9270cdbfd1e6fbae3d59f5c0753d8f46c3e8c0ae431319b08d24f748", "4f101a538f4eb5c49bf13dd3d81fc9e11fba8a7f6da9b1f72761e6f2667d04b6", "5db8907215194eeb8daa97eadbd38f88ea1f2ec3bca25ca8e6db1725ad115c71", "6ff43d7e5e3adad6ae30344bcd111da49c48452bf5eb435dd0a161e99db687bc", "90a42b91afac2a8c1f15dfd5e1b7d389f7c938705c194a8e18118a5b69ee4701", "9a14d12ebf582bed90d2ce90cd75c1ff57f837ad0ab75d5efa94a78d0dbcb4f4", "ac6655f21a2e5248f8616b49a75c93acca1c4f11778181df0a04ac490eb4359f", "af1ffb73c0fa8020e8b9508f08744336409f197bf748fee399a9c984e1626185", "b2017b82c3861a9773ccbfa529cbb37dbace0d5c1cf99332485635f10cb7af88", "b91c1e86eadc9753bd1ec33640543cc3caac3d9134cc72cfe63e1e325ffcc8e4"]
